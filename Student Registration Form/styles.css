@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+}
+
+#name{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+#mail{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#mob{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#course{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#duration{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #00efc0;
+}
+
+input {
+    width: 98%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+
+}
+
+#submit-button{
+    background: rgb(40, 177, 40);
+    width: 100%;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 5px 0;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+.duration{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+
+.course{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration Form</title>
+</head>
+
+<body><div class="form">
+    
+   <form action="">
+    <div class="Registration-form">
+        <h1>Registration : </h1>
+        <form id="Registration">
+            <div class="name">
+                <label for="Full-Name" id="name">Full Name :</label>
+                <input type="text" id="Full-Name" placeholder="xyz last name" required>
+
+            </div>
+            <div class="email">
+                <label for="Email" id="mail">Email Address:</label>
+                <input type="email" id="email" placeholder="xyz@email.com" required>
+            </div>
+            <div class="mob"><label for="Mob." id="mob">Mob. no.:</label>
+                <input type="number" id="number" placeholder="9999999999" required>
+            </div>
+            <div class="course"> <label for="Course" id="course">Course:</label>
+                <select name="Course" id="Course">Courses:
+                    <option value="Course">Course</option>
+                    <option value="Java">Java</option>
+                    <option value="php">php</option>
+                    <option value="Java Script">Java Script</option>
+                    <option value="Python">Python</option>
+                </select>
+            </div>
+            <div class="duration">
+                <label for="Duration" id="duration">Duration :</label>
+                <select name="Months" id="Months">
+                    <option value="Months">Months</option>
+                    <option value="3 Months">3 Months</option>
+                    <option value="6 Months">6 Months</option>
+                    <option value="9 Months">9 Months</option>
+                    <option value="12 Months">12 Months</option>
+                </select>
+            </div>
+
+
+
+            <button type="submit" id="submit-button" >Submit</button>
+        </form>
+    </div>
+
+   </form>
+</div>
+    <div id="success-message" class="hidden">
+        <div class="response"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
